@@ -1,0 +1,23 @@
+{
+  "modules": {
+  
+   "Database Manager": {
+    "vi_path": "c:/app/modules/DB Manager/Start DB Manager.vi",
+    "params": {
+      "db_type": "MySQL",
+      "host": "localhost",
+      "port": 3306
+    }
+  },   
+    "Communication": {
+     "vi_path": "c:/app/modules/Serial/Start Serial.vi",
+     "params": {
+       "connection_type": "RS232",
+       "baud_rate": 9600,
+       "port": "COM3",
+       "Name": "Motor"
+     }
+   }
+  
+  }
+}
