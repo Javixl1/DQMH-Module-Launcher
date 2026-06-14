@@ -17,7 +17,16 @@
        "port": "COM3",
        "Name": "Motor"
      }
-   }
+   },
+     "Communication": {
+     "vi_path": "c:/app/modules/Serial/Start Serial.vi",
+     "params": {
+       "connection_type": "RS485",
+       "baud_rate": 9600,
+       "port": "COM4",
+       "Name": "PowerStrip"
+     }
+   }  
   
   }
 }
