@@ -16,14 +16,21 @@
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Database Manager.lvlib" Type="Library" URL="../Libraries/Database Manager/Database Manager.lvlib"/>
+			<Item Name="Communication.lvlib" Type="Library" URL="../Libraries/Communication/Communication.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Database Manager API.vi" Type="VI" URL="../Libraries/Database Manager/Test Database Manager API.vi"/>
+			<Item Name="Test Communication API.vi" Type="VI" URL="../Libraries/Communication/Test Communication API.vi"/>
 		</Item>
 		<Item Name="Classes" Type="Folder">
-			<Item Name="Launcher Base.lvclass" Type="LVClass" URL="../Module Launcher Base/Launcher Base.lvclass"/>
-			<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication/Communication.lvclass"/>
-			<Item Name="Database Manager.lvclass" Type="LVClass" URL="../Database Manager/Database Manager.lvclass"/>
+			<Item Name="Module Class" Type="Folder">
+				<Item Name="Launcher Base.lvclass" Type="LVClass" URL="../Module Launcher Base/Launcher Base.lvclass"/>
+				<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication/Communication.lvclass"/>
+				<Item Name="Database Manager.lvclass" Type="LVClass" URL="../Database Manager/Database Manager.lvclass"/>
+			</Item>
+			<Item Name="Task Class" Type="Folder">
+				<Item Name="Task Base.lvclass" Type="LVClass" URL="../Task Base/Task Base.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Config.json" Type="Document" URL="../Config.json"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
@@ -124,6 +131,8 @@
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Delacor_lib_QMH_Cloneable Module Admin.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Delacor/Delacor QMH/Libraries/Cloneable Module Admin_class/Delacor_lib_QMH_Cloneable Module Admin.lvclass"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
