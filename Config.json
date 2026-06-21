@@ -15,9 +15,32 @@
            "connection_type": "RS232",
            "baud_rate": 9600,
            "port": "COM3",
-           "Name": "Motor"
+           "Name": "Motor",
+           "Show": true
         }
       }
+    },
+     "Task-AI": {
+      "Communication": {
+        "vi_path": "c:/app/modules/Serial/Start_AI_Serial.vi",
+        "params": {
+          "connection_type": "RS232",
+          "baud_rate": 9600,
+          "port": "COM3",
+          "Name": "Motor"
+        }
+      }
+    },
+     "Task-AO": {  
+      "Communication": {
+       "vi_path": "c:/app/modules/Serial/Start_AO_Serial.vi",
+       "params": {
+         "connection_type": "RS485",
+         "baud_rate": 9600,
+         "port": "COM4",
+         "Name": "PowerStrip"
+        }
+      }   
     }
   }
 }
